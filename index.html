@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <script src="https://kit.fontawesome.com/4978c29f1f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.min.js"></script>
+    <title>PickAt - Main</title>
+</head>
+<body>
+    <div class="row">
+      <div class="col">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" href="profile.html"><b>내 프로필</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="profile.html"><b>0 Pick</b></a>
+          </li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+    <titles class="container-fluid text-center text-dark">
+        <a class ="text-decoration-none text-dark" href=""><p class="h1"><b>P I C K A T</b></p></a>
+    </titles>
+
+    <ul class="nav nav-pills justify-content-center">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">생활/가전</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">생활용품</a></li>
+          <li><a class="dropdown-item" href="#">가전용품 </a></li>
+          <li><a class="dropdown-item" href="#">추가예정</a></li>
+        </ul>
+      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">귀금속/명품</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">보석/반지/시계 등</a></li>
+            <li><a class="dropdown-item" href="#">명품</a></li>
+            <li><a class="dropdown-item" href="#">추가예정</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">사치품</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">미술품</a></li>
+            <li><a class="dropdown-item" href="#">골드바</a></li>
+            <li><a class="dropdown-item" href="#">추가예정</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">기타</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">추가예정</a></li>
+            <li><a class="dropdown-item" href="#">추가예정</a></li>
+            <li><a class="dropdown-item" href="#">추가예정</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">고객센터</a>
+        </li>
+      </ul>
+
+
+
+      <!-- Carousel -->
+      <div data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner mt-3">
+          <div class="carousel-item active">
+              <a href="auction.html"><img src="./images/asdf/슬라이드1.jpeg" alt="Los Angeles" class="d-block mx-auto" style="width: 90%"></a>
+              <div class="carousel-caption">
+                <!-- <h3 class="text-dark">iPhone X</h3> -->
+                <!-- <p class="text-dark">요즘 쓰기 가장 좋은, 최고의 스마트폰</p> -->
+                <!-- <a class="text-white text-decoration-none" href="#">더 알아보기</a> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="auction.html"><img src="./images/asdf/슬라이드2.jpeg" alt="Chicago" class="d-block mx-auto" style="width:90%"></a>
+            <div class="carousel-caption">
+              <!-- <h3 class="text-dark">Chicago</h3> -->
+              <!-- <p>Thank you, Chicago!</p> -->
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <a href="auction.html"><img src="./images/asdf/슬라이드3.jpeg" alt="New York" class="d-block mx-auto" style="width:90%"></a>
+            <div class="carousel-caption">
+              <!-- <h3 class="text-dark">New York</h3> -->
+              <!-- <p>We love the Big Apple!</p> -->
+            </div>  
+          </div>
+        </div>
+      </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon"></span> -->
+          <i class="fa-solid fa-caret-left fa-2x" style="color: black;"></i>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <!-- <span class="carousel-control-next-icon"></span> -->
+          <i class="fa-solid fa-caret-right fa-2x" style="color:black;"></i>
+          
+        </button>
+      </div>
+
+
+      <div data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+      <div class="container mt-5">
+        <p class="h3 text-center"><b>당신에게 딱 맞는 이번주의 물건들.</b></p>
+      </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+      <div class="container mt-3 justify-content-center">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card h-100">
+              <img src="./images/ipad.png" alt="" style="width:100%"/>
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title"><b>iPad 10세대</b></h5>
+                <p class="card-text">당신의 아이패드, C타입인가요?</p>
+                <a href="auction.html" class="btn btn-dark mt-auto">지금 경매하러 가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card h-100 align-items-center">
+              <img src="./images/ipadpro.jpeg" alt="" style="width:70%"/>
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title"><b>iPad Pro</b></h5>
+                <p class="card-text">당신의 다음 컴퓨터는 컴퓨터가 아니다.</p>
+                <a href="auction.html" class="btn btn-dark mt-auto">지금 경매하러 가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card h-100">
+              <img src="./images/macbook.jpeg" alt="" style="width:100%"/>
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title"><b>MacBook 14 inch</b></h5>
+                <p class="card-text">14인치 광활한 성능.</p>
+                <a href="auction.html" class="btn btn-dark mt-auto">지금 경매하러 가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card h-100">
+              <img src="./images/imac.jpeg" alt="" style="width:100%"/>
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title"><b>iMac 24 inch</b></h5>
+                <p class="card-text">우려먹던 디자인, 10년만에 체인지.</p>
+                <a href="auction.html" class="btn btn-dark mt-auto">지금 경매하러 가기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+      <div class="container mt-5">
+        <p class="h3 text-center"><b>귀금속류는 어떠세요?</b></p>
+      </div>
+      <div class="container mt-3 justify-content-center">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card h-100">
+              <img src="./images/ring.jpg" alt="" style="width:100%"/>
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title"><b>Tiffani&Co Ring</b></h5>
+                <p class="card-text">행복한 결혼생활 판매합니다.</p>
+                <a href="auction.html" class="btn btn-dark mt-auto">지금 경매하러 가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card h-100 align-items-center">
+              <img src="./images/neck.jpg" alt="" style="width:70%"/>
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title"><b>Cartier</b></h5>
+                <p class="card-text">당신의 아름다움을 한 층 더 빛낼 수 있도록.</p>
+                <a href="auction.html" class="btn btn-dark mt-auto">지금 경매하러 가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card h-100">
+              <img src="./images/bag.webp" alt="" style="width:100%;"/>
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title"><b>Hermès</b></h5>
+                <p class="card-text">일상을 더하다. 아름답게</p>
+                <a href="auction.html" class="btn btn-dark mt-auto">지금 경매하러 가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card h-100">
+              <img src="./images/watch.jpg" alt="" style="width:100%"/>
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title"><b>Rolex</b></h5>
+                <p class="card-text">한 층 더 업그레이드된 삶을 위하여.</p>
+                <a href="auction.html" class="btn btn-dark mt-auto">지금 경매하러 가기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container text-center justify-content-center mt-5">
+      <a class="text-decoration-none" href="" style="color: #FF6666;"><b>더보기</b></a>
+      <hr class="" style="width: 5%; margin: auto;">
+    </div>
+      </div>
+
+    <div class="container mt-5 justify-content-center text-center">
+    <div class="row">
+      <div class="col">
+        <div data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+        <i class="fa-solid fa-4x fa-truck-fast" style="color: #FF6666;"></i>
+        <p class="h3 mt-3"><b>안전한 거래</b></p>
+        <p class="h6">저희는 안전한 거래를 보장합니다!<br>제대로된 상품을 확인 후 배송하는 시스템으로<br>경매자도 낙찰자도 안전!</p>
+      </div>
+      </div>
+
+      <div class="col">
+        <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
+        <i class="fa-solid fa-4x fa-coins" style="color: gold;"></i>
+        <p class="h3 mt-3"><b>낮은 수수료율</b></p>
+        <p class="h6">10%대의 높은 수수료율을 가진 경매사이트에 비해<br>5%로 수수료율이 낮습니다</p>
+      </div>
+      </div>
+
+      <div class="col">
+        <div data-aos="fade-up" data-aos-duration="800"  data-aos-delay="1000" data-aos-once="true">
+        <i class="fa-solid fa-4x fa-robot" style="color: skyblue;"></i>
+        <p class="h3 mt-3"><b>빅데이터를 이용한 사용자 맞춤 서비스</b></p>
+        <p class="h6">지금 보이는 마음에 드시나요?<br>빅데이터를 이용해 여러분에게 맞춤 서비스를 제공합니다.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1200" data-aos-once="true">
+  <div class="text-center align-content-center">
+    <h2 class="mt-5"><b>등록. 경매. 낙찰.</b><br>
+      <h3>얼마나 간편한가요</h3>
+    </h2>
+    <!-- <p>회원가입 후 로그인하고 바로 볼 수 있는 시스템.<br>본 서비스는 당신이 어떤 자료를 보는지 관심이 없습니다.<br>그냥 편하게 이용하세요.</p> -->
+    <div class="d-grid gap-2 d-md-block">
+      <button class="btn btn-dark"><a class= "text-decoration-none text-white" href="auction.html">경매 참여하기</a></button>
+    </div>
+  </div>
+  <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1500" data-aos-once="true">
+  <div class="text-center align-content-center">
+    <p class="h2 mt-4"><b>경매 물건</b><br><h3>등록하고 싶다면?</h3></p>
+    <div class="d-grid gap-2 d-md-block">
+      <button class="btn btn-dark" type="button" data-bs-toggle="modal"data-bs-target="#writeModal">물품 등록하기</button>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+</div>
+</div>
+</div>
+  <footer class="text-center text-lg-start bg-light text-muted mt-3">
+    <div class="text-center p-3">
+      © 2022 Copyright:
+      <a class="text-decoration-none text-secondary" href="#">PickAt</a>
+    </div>
+  </footer>
+
+
+<!-- Register modal -->
+  <div class="modal fade" id="writeModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <section class="bg-dark h-auto">
+          <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-xl-9">
+                <h1 class="text-white mb-3 mt-3"><b>물품 등록하기</b></h1>
+                <div class="card" style="border-radius: 15px;">
+                  <div class="card-body">
+                    <div class="row align-items-center pt-4 pb-3">
+                      <div class="col-md-3 ps-5">
+                        <h6 class="mb-0">물품</h6>
+                      </div>
+                      <div class="col-md-9 pe-5">
+                        <input type="text" id="name" name="name" class="form-control form-control-lg"
+                          placeholder="물품명, 모델 등을 입력해주세요" />
+                        <p class="text-danger" id="nameWarning"></p>
+                      </div>
+                    </div>
+                    <hr class="mx-n3">
+                    <div class="row align-items-center py-3">
+                      <div class="col-md-3 ps-5">
+                        <h6 class="mb-0">시작 경매 금액</h6>
+                      </div>
+                      <div class="col-md-9 pe-5">
+                        <input type="text" id="text" name="text" class="form-control form-control-lg"
+                          placeholder="예: 10000" />
+                        <p class="text-danger" id="emailWarning"></p>
+                      </div>
+                    </div>
+                    <hr class="mx-n3">
+                    <div class="row align-items-center py-3">
+                      <div class="col-md-3 ps-5">
+                        <h6 class="mb-0">물품 소개</h6>
+                      </div>
+                      <div class="col-md-9 pe-5">
+                        <input type="text" id="passwd" name="passwd" class="form-control form-control-lg"
+                          placeholder="물품에 대해 간략하게 소개해주세요" />
+                        <p class="text-danger" id="passwdWarning"></p>
+                      </div>
+                    </div>
+                    <hr class="mx-n3">
+                    <div class="row align-items-center py-3">
+                      <div class="col-md-3 ps-5">
+                        <h6 class="mb-0">물품 사진 업로드</h6>
+                      </div>
+                      <div class="col-md-9 pe-5">
+                        <input class="form-control form-control-lg" id="formFileLg" type="file" />
+                        <div class="small text-muted mt-2">물품을 확인하기 위해 물품 사진 및 설명을 업로드 해주세요</div>
+                      </div>
+                    </div>
+                    <hr class="mx-n3">
+                    <div class="px-5 py-4">
+                      <button type="button" id="registerBtn" class="btn btn-dark btn-lg"
+                        onclick="Register()"><b>등록하기</b></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- Register modal -->
+
+
+  <script> 
+    AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.center {
+  text-align: center;
+  width: 100%;
+}
+#grad {
+    background-image: linear-gradient(to bottom right, red, purple);
+  }
+.carousel-control-next-icon{
+  color: darkgray;
+}
+.carousel-control-next-icon{
+  color: darkgray;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+  font-family: Pretendard-Regular;
+}
+
+input::-webkit-input-placeholder { font-size: 90%; }
+input::-moz-placeholder { font-size: 90%; }
+input:-ms-input-placeholder { font-size: 90%; }
+input:-moz-placeholder { font-size: 90%; }
+input::placeholder { font-size: 90%; }
